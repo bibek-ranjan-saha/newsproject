@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="previous"
+        android:id="@+id/nav_previous"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_navigate_before_24"
+        />
+    <item
+        android:title="next"
+        android:id="@+id/nav_next"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_navigate_next_24"
+        />
+    <item
+        android:title="refresh"
+        android:id="@+id/btn_reload"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        />
+    <item
+        android:id="@+id/menu_share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="share"/>
+    <item
+        android:id="@+id/menu_dark"
+        app:showAsAction="collapseActionView"
+        android:title="dark mode"
+        android:onClick="darkmode"/>
+    <item
+        android:id="@+id/menu_light"
+        app:showAsAction="collapseActionView"
+        android:title="light mode"
+        android:onClick="lightmode"/>
+    <item
+        android:id="@+id/about_me"
+        app:showAsAction="collapseActionView"
+        android:title="about me"
+        android:onClick="aboutme"/>
+</menu>

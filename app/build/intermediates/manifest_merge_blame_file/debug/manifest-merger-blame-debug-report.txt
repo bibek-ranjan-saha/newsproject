@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.crazy.newsproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:9:5-30:19
+16        android:allowBackup="true"
+16-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.1] C:\Users\Bibek\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:hardwareAccelerated="true"
+20-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:11:9-43
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Newsproject"
+26-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:16:9-49
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:17:9-44
+28        <activity android:name="com.crazy.newsproject.aboutme" />
+28-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:18:9-54
+28-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:18:19-42
+29        <activity
+29-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:19:9-27:20
+30            android:name="com.crazy.newsproject.appintro"
+30-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:20:13-37
+31            android:theme="@style/Theme.AppCompat.NoActionBar" >
+31-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:21:13-63
+32            <intent-filter>
+32-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:23:17-69
+33-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:25:17-77
+35-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.crazy.newsproject.SplashActivity" />
+38-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:28:9-52
+38-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:28:19-49
+39        <activity android:name="com.crazy.newsproject.MainActivity" />
+39-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:29:9-50
+39-->C:\Users\Bibek\AndroidStudioProjects\Gietuportal\app\src\main\res\newsproject\app\src\main\AndroidManifest.xml:29:19-47
+40        <activity
+40-->[com.karumi:dexter:6.2.1] C:\Users\Bibek\.gradle\caches\transforms-2\files-2.1\bfc680b94b3a972082b0e544339efd06\jetified-dexter-6.2.1\AndroidManifest.xml:27:9-29:72
+41            android:name="com.karumi.dexter.DexterActivity"
+41-->[com.karumi:dexter:6.2.1] C:\Users\Bibek\.gradle\caches\transforms-2\files-2.1\bfc680b94b3a972082b0e544339efd06\jetified-dexter-6.2.1\AndroidManifest.xml:28:13-60
+42            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+42-->[com.karumi:dexter:6.2.1] C:\Users\Bibek\.gradle\caches\transforms-2\files-2.1\bfc680b94b3a972082b0e544339efd06\jetified-dexter-6.2.1\AndroidManifest.xml:29:13-69
+43    </application>
+44
+45</manifest>

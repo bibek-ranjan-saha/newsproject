@@ -1,0 +1,18 @@
+com/crazy/newsproject/SplashActivity.java
+ com.crazy.newsproject.SplashActivity
+ com.crazy.newsproject.SplashActivity$1
+com/crazy/newsproject/aboutme.java
+ com.crazy.newsproject.aboutme
+com/crazy/newsproject/MainActivity.java
+ com.crazy.newsproject.MainActivity
+ com.crazy.newsproject.MainActivity$1
+ com.crazy.newsproject.MainActivity$1$1
+ com.crazy.newsproject.MainActivity$2
+ com.crazy.newsproject.MainActivity$3
+ com.crazy.newsproject.MainActivity$4
+ com.crazy.newsproject.MainActivity$5
+ com.crazy.newsproject.MainActivity$Browser_home
+com/crazy/newsproject/BuildConfig.java
+ com.crazy.newsproject.BuildConfig
+com/crazy/newsproject/appintro.java
+ com.crazy.newsproject.appintro
